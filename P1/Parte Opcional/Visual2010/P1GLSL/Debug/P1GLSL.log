@@ -1,0 +1,34 @@
+﻿Compilación iniciada a las 28/10/2015 22:40:22.
+     1>Proyecto "C:\Users\sergio777\Downloads\P1\Parte Opcional\Visual2010\P1GLSL\P1GLSL.vcxproj" en el nodo 2 (build destinos).
+       El archivo del proyecto contiene ToolsVersion="10.0", que esta versión de MSBuild no admite. Se tratará el proyecto como si contuviera ToolsVersion="4.0".
+     1>InitializeBuildStatus:
+         Se creará "Debug\P1GLSL.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libs\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt scr\main.cpp
+         main.cpp
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(49): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(50): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(93): warning C4244: 'inicializando' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(94): warning C4244: 'inicializando' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(204): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(212): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\sergio777\downloads\p1\parte opcional\visual2010\p1glsl\scr\main.cpp(213): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\P1GLSL.exe.embed.manifest.res" Debug\P1GLSL_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sergio777\Downloads\P1\Parte Opcional\Visual2010\P1GLSL\Debug\P1GLSL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs\lib IGlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\P1GLSL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sergio777\Downloads\P1\Parte Opcional\Visual2010\P1GLSL\Debug\P1GLSL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sergio777\Downloads\P1\Parte Opcional\Visual2010\P1GLSL\Debug\P1GLSL.lib" /MACHINE:X86 Debug\P1GLSL.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\P1GLSL.exe.embed.manifest" /manifest Debug\P1GLSL.exe.intermediate.manifest
+         Todas las salidas están actualizadas.
+       LinkEmbedManifest:
+         Todas las salidas están actualizadas.
+         P1GLSL.vcxproj -> C:\Users\sergio777\Downloads\P1\Parte Opcional\Visual2010\P1GLSL\Debug\P1GLSL.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\P1GLSL.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\P1GLSL.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\sergio777\Downloads\P1\Parte Opcional\Visual2010\P1GLSL\P1GLSL.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.43

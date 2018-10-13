@@ -1,0 +1,11 @@
+﻿  main.cpp
+scr\main.cpp(49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+scr\main.cpp(50): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+scr\main.cpp(93): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+scr\main.cpp(94): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+scr\main.cpp(204): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+scr\main.cpp(212): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+scr\main.cpp(213): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  Generando código
+e:\urjc\curso 2\informatica grafica\p1\parte opcional\visual2010\p1glsl\scr\main.cpp : fatal error C1083: No se puede abrir el archivo intermedio para compilador: 'E:\URJC\curso 2\Informatica Grafica\P1\Parte Opcional\Visual2010\P1GLSL\Release\P1GLSL.ipdb': Permission denied
+LINK : fatal error LNK1257: error de generación de código

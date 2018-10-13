@@ -1,0 +1,37 @@
+﻿Compilación iniciada a las 02/12/2015 21:59:36.
+     1>Proyecto "C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\P3GLSL.vcxproj" en el nodo 2 (build destinos).
+       El archivo del proyecto contiene ToolsVersion="10.0". Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versión apropiada de MSBuild. También es posible que, por motivos de directiva, se haya exigido a la compilación que use un valor determinado para ToolsVersion. Se tratará el proyecto como si contuviera ToolsVersion="4.0". Para obtener más información, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Se creará "Release\P3GLSL.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libs\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt scr\main.cpp
+         main.cpp
+     1>scr\main.cpp(602): warning C4244: 'inicializando' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>scr\main.cpp(603): warning C4244: 'inicializando' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>scr\main.cpp(610): warning C4305: '=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(612): warning C4305: '=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(710): warning C4305: '+=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(715): warning C4305: '-=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(720): warning C4305: '+=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(725): warning C4305: '-=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(730): warning C4305: '+=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(735): warning C4305: '-=' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(758): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>scr\main.cpp(765): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>scr\main.cpp(766): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\Release\P3GLSL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\libs\lib FreeImage.lib freeglut.lib glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\P3GLSL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\Release\P3GLSL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\Release\P3GLSL.lib" /MACHINE:X86 Release\auxiliar.obj
+         Release\main.obj
+         Generando código
+         Generación de código finalizada
+         P3GLSL.vcxproj -> C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\Release\P3GLSL.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\Release\P3GLSL.exe;#1" /manifest Release\P3GLSL.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\P3GLSL.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\P3GLSL.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\hlinsama\Downloads\IG\P3\Visual2010\P3GLSL\P3GLSL.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.38

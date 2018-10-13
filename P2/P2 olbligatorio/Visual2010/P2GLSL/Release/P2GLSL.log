@@ -1,0 +1,18 @@
+﻿Compilación iniciada a las 11/11/2015 15:59:00.
+     1>Proyecto "C:\Users\hlinsama\Downloads\Visual2010\P2GLSL\P2GLSL.vcxproj" en el nodo 2 (build destinos).
+       El archivo del proyecto contiene ToolsVersion="10.0". Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versión apropiada de MSBuild. También es posible que, por motivos de directiva, se haya exigido a la compilación que use un valor determinado para ToolsVersion. Se tratará el proyecto como si contuviera ToolsVersion="4.0". Para obtener más información, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Se creará "Release\P2GLSL.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         Todas las salidas están actualizadas.
+         P2GLSL.vcxproj -> C:\Users\hlinsama\Downloads\Visual2010\P2GLSL\Release\P2GLSL.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\P2GLSL.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\P2GLSL.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\hlinsama\Downloads\Visual2010\P2GLSL\P2GLSL.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.14

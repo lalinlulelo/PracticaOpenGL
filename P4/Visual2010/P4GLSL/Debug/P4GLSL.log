@@ -1,0 +1,73 @@
+﻿Compilación iniciada a las 03/12/2015 17:54:09.
+     1>Proyecto "E:\URJC\IG\P4\Visual2010\P4GLSL\P4GLSL.vcxproj" en el nodo 2 (build destinos).
+       El archivo del proyecto contiene ToolsVersion="10.0". Este conjunto de herramientas puede faltar o ser desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versión apropiada de MSBuild, o puede haberse obligado a la compilación a utilizar un valor de ToolsVersion concreto por motivos de directivas. Se tratará el proyecto como si contuviera ToolsVersion="4.0". Para obtener más información, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\P4GLSL.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libs\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt scr\main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\URJC\IG\P4\Visual2010\P4GLSL\Debug\P4GLSL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs\lib FreeImage.lib opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\P4GLSL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\URJC\IG\P4\Visual2010\P4GLSL\Debug\P4GLSL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\URJC\IG\P4\Visual2010\P4GLSL\Debug\P4GLSL.lib" /MACHINE:X86 Debug\P4GLSL.exe.embed.manifest.res
+         Debug\auxiliar.obj
+         Debug\main.obj
+         Debug\main.v0.obj
+     1>main.v0.obj : error LNK2005: ya se definió _main en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initContext(int,char * *)" (?initContext@@YAXHPAPAD@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initOGL(void)" (?initOGL@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl destroy(void)" (?destroy@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initShaderFw(char const *,char const *)" (?initShaderFw@@YAXPBD0@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initObj(void)" (?initObj@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int __cdecl loadShader(char const *,unsigned int)" (?loadShader@@YAIPBDI@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int __cdecl loadTex(char const *)" (?loadTex@@YAIPBD@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl renderFunc(void)" (?renderFunc@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl renderCube(void)" (?renderCube@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl resizeFunc(int,int)" (?resizeFunc@@YAXHH@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl idleFunc(void)" (?idleFunc@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl keyboardFunc(unsigned char,int,int)" (?keyboardFunc@@YAXEHH@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl mouseFunc(int,int,int,int)" (?mouseFunc@@YAXHHHH@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initShaderPP(char const *,char const *)" (?initShaderPP@@YAXPBD0@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initPlane(void)" (?initPlane@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl initFBO(void)" (?initFBO@@YAXXZ) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "void __cdecl resizeFBO(unsigned int,unsigned int)" (?resizeFBO@@YAXII@Z) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int postProccesVShader" (?postProccesVShader@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int planeVAO" (?planeVAO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int inNormal" (?inNormal@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int uModelViewMat" (?uModelViewMat@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int colorBuffTexId" (?colorBuffTexId@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int depthBuffTexId" (?depthBuffTexId@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int fshader" (?fshader@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int inTexCoord" (?inTexCoord@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int planeVertexVBO" (?planeVertexVBO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int vshader" (?vshader@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int inPos" (?inPos@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int uModelViewProjMat" (?uModelViewProjMat@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int emiTexId" (?emiTexId@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int triangleIndexVBO" (?triangleIndexVBO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int program" (?program@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int posVBO" (?posVBO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int uEmiTex" (?uEmiTex@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int texCoordVBO" (?texCoordVBO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int vao" (?vao@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int postProccesFShader" (?postProccesFShader@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int colorVBO" (?colorVBO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int uColorTex" (?uColorTex@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int uColorTexPP" (?uColorTexPP@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int inPosPP" (?inPosPP@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int normalVBO" (?normalVBO@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int uNormalMat" (?uNormalMat@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "int inColor" (?inColor@@3HA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int fbo" (?fbo@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int colorTexId" (?colorTexId@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "unsigned int postProccesProgram" (?postProccesProgram@@3IA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "float angle" (?angle@@3MA) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "struct glm::detail::tmat4x4<float,0> proj" (?proj@@3U?$tmat4x4@M$0A@@detail@glm@@A) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "struct glm::detail::tmat4x4<float,0> model" (?model@@3U?$tmat4x4@M$0A@@detail@glm@@A) en main.obj
+     1>main.v0.obj : error LNK2005: ya se definió "struct glm::detail::tmat4x4<float,0> view" (?view@@3U?$tmat4x4@M$0A@@detail@glm@@A) en main.obj
+     1>E:\URJC\IG\P4\Visual2010\P4GLSL\Debug\P4GLSL.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
+     1>Compilación del proyecto terminada "E:\URJC\IG\P4\Visual2010\P4GLSL\P4GLSL.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:09.36

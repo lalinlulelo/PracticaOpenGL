@@ -1,0 +1,21 @@
+﻿Compilación iniciada a las 26/10/2015 12:02:53.
+     1>Proyecto "C:\Users\usuario\Documents\Uni\Deberes & Prácticas\Informática Gráfica\P1\Visual2010\P1GLSL\P1GLSL.vcxproj" en el nodo 2 (build destinos).
+       El archivo del proyecto contiene ToolsVersion="10.0". Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versión apropiada de MSBuild. También es posible que, por motivos de directiva, se haya exigido a la compilación que use un valor determinado para ToolsVersion. Se tratará el proyecto como si contuviera ToolsVersion="4.0". Para obtener más información, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Se creará "Debug\P1GLSL.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         Todas las salidas están actualizadas.
+       Manifest:
+         Todas las salidas están actualizadas.
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\P1GLSL.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\P1GLSL.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\usuario\Documents\Uni\Deberes & Prácticas\Informática Gráfica\P1\Visual2010\P1GLSL\P1GLSL.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.29
